@@ -1,4 +1,4 @@
-package ejecutables;
+package lineales;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

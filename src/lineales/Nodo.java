@@ -1,4 +1,4 @@
-package ejecutables;
+package lineales;
 
 /**
  * Clase Nodo que representa un nodo en una lista enlazada.
