@@ -29,7 +29,7 @@ public class ListaEnlazada<TipoDato> implements Iterable<TipoDato> {
      * @param dato El dato a agregar a la lista.
      */
     public void agregar(TipoDato dato) {
-        Nodo<TipoDato> nuevoNodo = new Nodo<>(dato);  // Crear un nuevo nodo con el dato
+        Nodo<TipoDato> nuevoNodo = new Nodo<>(dato);  // Crea un nuevo nodo con el dato
 
         if (nodoInicio == null) {
             // Si la lista está vacía, el nuevo nodo es el nodo inicial
